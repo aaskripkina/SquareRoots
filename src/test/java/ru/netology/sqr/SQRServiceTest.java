@@ -16,6 +16,7 @@ public class SQRServiceTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     public void shouldCalculateZeroResult() {
         final SQRService service = new SQRService();
@@ -26,6 +27,7 @@ public class SQRServiceTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     public void shouldCalculateMinusResult() {
         final SQRService service = new SQRService();
@@ -36,6 +38,7 @@ public class SQRServiceTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     public void shouldCalculateInInvalidRangeOfNumbers() {
         final SQRService service = new SQRService();
